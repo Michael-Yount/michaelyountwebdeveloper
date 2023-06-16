@@ -1,3 +1,5 @@
+import React from "react";
+
 function Biography() {
     console.log('biography');
     return (

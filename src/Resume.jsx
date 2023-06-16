@@ -1,3 +1,5 @@
+import React from "react";
+
 function Resume() {
     console.log('resume');
     return (

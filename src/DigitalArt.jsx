@@ -1,3 +1,5 @@
+import React from "react";
+
 function DigitalArt() {
     console.log('digital art');
     return (
