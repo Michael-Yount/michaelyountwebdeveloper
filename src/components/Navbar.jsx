@@ -4,29 +4,30 @@ function Navbar() {
     return (
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
-                <a className="navbar-brand" href="../Home.jsx">Navbar</a>
+                <img src="../MYlogo.jpg" alt="logo" width={30} height={30}/>
+                <a className="navbar-brand" href="../components">Michael Yount web development</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="/src/Home.jsx">Home</a>
+                    <a className="nav-link" aria-current="page" href="../Home.jsx">Home</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="/src/WebbApps.jsx">Web Apps</a>
+                    <a className="nav-link" aria-current="page" href="../WebApps.jsx">Web Apps</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="/src/Biography.jsx">Biography</a>
+                    <a className="nav-link" aria-current="page" href="../Biography.jsx">Biography</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="/src/Resume.jsx">Resume</a>
+                    <a className="nav-link" aria-current="page" href="../Resume.jsx">Resume</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="/src/DigitalArt.jsx">Digital Art</a>
+                    <a className="nav-link" aria-current="page" href="../DigitalArt.jsx">Digital Art</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="/src/Games.jsx">Games</a>
+                    <a className="nav-link" aria-current="page" href="../Games.jsx">Games</a>
                     </li>
                     <li className="nav-item">
                     <a className="nav-link" aria-current="page" href="https://github.com/Michael-Yount">Github</a>
