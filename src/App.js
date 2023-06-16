@@ -1,16 +1,16 @@
-import Navbar from './components/Navbar.jsx';
-import './App.css'
 import {
   HashRouter,
   Routes,
   Route
 } from 'react-router-dom';
-import Home from "./Home.jsx";
-import WebApps from "./WebApps";
-import Biography from "./Biography";
-import Games from "./Games";
-import DigitalArt from "./DigitalArt";
-import Resume from "./Resume";
+import './App.css'
+import Navbar from './components/Navbar';
+import Home from "./pages/Home";
+import WebApps from "./pages/WebApps";
+import Biography from "./pages/Biography";
+import Games from "./pages/Games";
+import DigitalArt from "./pages/DigitalArt";
+import Resume from "./pages/Resume";
 
 function App() {
   return (
@@ -18,7 +18,8 @@ function App() {
     <HashRouter>
       <Navbar/>
             <Routes>
-              <Route path="/Home" exact          element={<Home />} />
+              <Route path="/"                  element={<Home />}/>
+              <Route path="/Home"           element={<Home />} />
               <Route path="/Biography" element={<Biography />} />
               <Route path="/Games"        element={<Games />} />
               <Route path="/WebApps"        element={<WebApps />} />

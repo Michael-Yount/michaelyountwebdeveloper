@@ -1,4 +1,3 @@
-import React from "react";
 
 function Games() {
     console.log('games');
