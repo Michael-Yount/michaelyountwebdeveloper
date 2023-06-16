@@ -18,15 +18,15 @@ function App() {
     <HashRouter>
       <Navbar/>
             <Routes>
-              <Route path="/Home" exact          element={<Home />} />
-              <Route path="/Biography" element={<Biography />} />
-              <Route path="/Games"        element={<Games />} />
-              <Route path="/WebApps"        element={<WebApps />} />
-              <Route path="/DigitalArt"       element={<DigitalArt />} />
-              <Route path="/Resume"       element={<Resume />} />
+              <Route path="./Home" exact          element={<Home />} />
+              <Route path="./Biography" element={<Biography />} />
+              <Route path="./Games"        element={<Games />} />
+              <Route path="./WebApps"        element={<WebApps />} />
+              <Route path="./DigitalArt"       element={<DigitalArt />} />
+              <Route path="./Resume"       element={<Resume />} />
             </Routes>
     </HashRouter>
   )
 }
 
-export default App
+export default App;

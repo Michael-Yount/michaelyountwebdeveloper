@@ -1,9 +1,7 @@
-import { Container } from 'react-bootstrap';
 
 function Navbar() {
     console.log('navbar');
     return (
-        <Container>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
                 <a className="navbar-brand" href="../Home.jsx">Navbar</a>
@@ -40,7 +38,6 @@ function Navbar() {
                 </div>
             </div>
             </nav>
-        </Container>
     )
 }
 

@@ -1,11 +1,8 @@
- import { Container } from 'react-bootstrap';
  
  function Home() {
     console.log('home');
     return (
-        <Container>
-
-        </Container>
+            <h1>Hello govenor</h1>
     )
  }
  export default Home;
