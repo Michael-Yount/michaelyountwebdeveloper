@@ -19,8 +19,8 @@ import lavaBoss from '../lavaBoss.png';
                 <div className="card">
         <img src={lavaBoss} className="card-img-top" alt="..."/>
         <div className="card-body">
-          <h5 className="card-title">Web Applications</h5>
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 className="card-title">Games</h5>
+          <p className="card-text">Here is where my digital art comes alive in these games that I have developed.</p>
           <a href="#/Games" className="btn btn-primary">Games</a>
         </div>
       </div>  
