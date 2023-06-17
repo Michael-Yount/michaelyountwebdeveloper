@@ -10,7 +10,7 @@ function Navbar() {
                 <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="navbar-nav">
+                <ul className="nav navbar-nav navbar-right">
                     <li className="nav-item">
                     <a className="nav-link" aria-current="page" href="#/Home">Home</a>
                     </li>
