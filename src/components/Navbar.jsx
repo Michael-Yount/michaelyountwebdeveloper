@@ -2,7 +2,7 @@ import logo from '../MYlogo.png';
 
 function Navbar() {
     return (
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <nav className="navbar navbar-expand-lg navbar-dark">
             <div className="container-fluid topbar">
                 <img src={logo} alt="logo" className='logo'/>
                 <a className="navbar-brand" href="../components">Michael Yount</a>
