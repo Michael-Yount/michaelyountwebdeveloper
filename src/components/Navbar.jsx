@@ -3,7 +3,7 @@ import logo from '../MYlogo.png';
 function Navbar() {
     return (
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
-            <div className="container-fluid">
+            <div className="container-fluid topbar">
                 <img src={logo} alt="logo" className='logo'/>
                 <a className="navbar-brand" href="../components">Michael Yount</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
