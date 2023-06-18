@@ -15,19 +15,19 @@ function Navbar() {
                     <a className="nav-link" aria-current="page" href="#/Home"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Home</span></a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="#/WebApps">Applications</a>
+                    <a className="nav-link" aria-current="page" href="#/WebApps"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Applications</span></a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="#/Biography">Biography</a>
+                    <a className="nav-link" aria-current="page" href="#/Biography"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Biography</span></a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="#/Resume">Resume</a>
+                    <a className="nav-link" aria-current="page" href="#/Resume"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Resume</span></a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="#/DigitalArt">Digital Art</a>
+                    <a className="nav-link" aria-current="page" href="#/DigitalArt"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Digital Art</span></a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="#/Games">Games</a>
+                    <a className="nav-link" aria-current="page" href="#/Games"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Games</span></a>
                     </li>
                     <li className="nav-item">
                     <a className="nav-link" aria-current="page" href="https://github.com/Michael-Yount">Github</a>
