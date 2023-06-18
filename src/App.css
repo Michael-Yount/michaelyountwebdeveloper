@@ -36,8 +36,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
   font-size: 1.2rem;
   box-shadow: .5em .5em 1em rgba(0, 0, 0, 0.351);
 }
+.nav {
+  align-items: end;
+}
 .nav-item {
-  padding: 1rem;
   font-size: 1.3rem;
 }
 
@@ -48,7 +50,15 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
 .cool-phrase {
   font-size: 2rem;
   font-family: Lato;
+  text-align: center;
 }
+.page-title {
+  text-align: center;
+  font-size: 3rem;
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 
 
 

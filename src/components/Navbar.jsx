@@ -10,9 +10,9 @@ function Navbar() {
                 <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="nav navbar-nav navbar-right">
+                <ul className="nav navbar-nav">
                     <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="#/Home">Home</a>
+                    <a className="nav-link" aria-current="page" href="#/Home"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Home</span></a>
                     </li>
                     <li className="nav-item">
                     <a className="nav-link" aria-current="page" href="#/WebApps">Applications</a>

@@ -4,7 +4,7 @@ function Games() {
     console.log('games');
     return (
         <div className="container">
-            <h1>Games</h1>
+            <h1 className='page-title'>Games</h1>
         <div class="card">
         <img src={bubbleAttack} className="card-img-top bubbleAttack" alt="..."/>
         <div class="card-body">
