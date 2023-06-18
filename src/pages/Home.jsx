@@ -16,7 +16,7 @@ import lavaBoss from '../lavaBoss.png';
                         <div className="card-body">
                             <h5 className="card-title">Apps</h5>
                             <p className="card-text">Functionality and productivity work together in my app designs.</p>
-                            <a href="#/Games" className="btn btn-primary">Apps</a>
+                            <a href="#/WebApps" className="btn btn-primary">Apps</a>
                         </div>
                     </div>  
             </div>
@@ -26,7 +26,7 @@ import lavaBoss from '../lavaBoss.png';
                         <div className="card-body">
                             <h5 className="card-title">Digital Art</h5>
                             <p className="card-text">Digital art is truly expressive, I enjoy many different approaches to digital art.</p>
-                            <a href="#/Games" className="btn btn-primary">Art</a>
+                            <a href="#/DigitalArt" className="btn btn-primary">Art</a>
                         </div>
                     </div>
                 </div>
