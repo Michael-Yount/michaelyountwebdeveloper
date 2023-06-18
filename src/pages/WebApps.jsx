@@ -3,7 +3,7 @@ function WebApps() {
     console.log('web apps');
     return (
         <>
-            <h1>Web Apps</h1>
+            <h1 className="page-title">Apps</h1>
         </>
     )
 }

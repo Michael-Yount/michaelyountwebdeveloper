@@ -3,7 +3,7 @@ function Resume() {
     console.log('resume');
     return (
         <>
-            <h1>Resume</h1>
+            <h1 className="page-title">Resume</h1>
         </>
     )
 }

@@ -13,7 +13,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
 }
 
 .logo {
-  width: 4rem;
+  width: 3rem;
 }
 .card {
   background-color: rgb(181, 228, 152);
@@ -31,7 +31,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
   max-width: max-content;
 }
 .navbar {
+  margin: 1rem;
   border-radius: 1rem;
+  padding: 1rem;
   background: rgba(30, 157, 171, 0.241);
   font-size: 1.2rem;
   box-shadow: .5em .5em 1em rgba(0, 0, 0, 0.351);
@@ -44,7 +46,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
 }
 
 .btn {
-  font-size: .7rem;
+  font-size: 1rem;
 }
 
 .cool-phrase {
@@ -55,9 +57,13 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
 .page-title {
   text-align: center;
   font-size: 3rem;
-  
+
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.card-img-top {
+  border-radius: 1rem;
+}
+
 
 
 

@@ -11,19 +11,34 @@ import lavaBoss from '../lavaBoss.png';
             </div>
             <div className="row">
                 <div className="col">
-                    
-                </div>
-                <div className="col">
-                </div>
+                <div className="card">
+                    <img src={lavaBoss} className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                            <h5 className="card-title">Apps</h5>
+                            <p className="card-text">Functionality and productivity work together in my app designs.</p>
+                            <a href="#/Games" className="btn btn-primary">Apps</a>
+                        </div>
+                    </div>  
+            </div>
                 <div className="col">
                 <div className="card">
-        <img src={lavaBoss} className="card-img-top" alt="..."/>
-        <div className="card-body">
-          <h5 className="card-title">Games</h5>
-          <p className="card-text">Here is where my digital art comes alive in these games that I have developed.</p>
-          <a href="#/Games" className="btn btn-primary">Games</a>
-        </div>
-      </div>  
+                    <img src={lavaBoss} className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                            <h5 className="card-title">Digital Art</h5>
+                            <p className="card-text">Digital art is truly expressive, I enjoy many different approaches to digital art.</p>
+                            <a href="#/Games" className="btn btn-primary">Art</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                    <img src={lavaBoss} className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                            <h5 className="card-title">Games</h5>
+                            <p className="card-text">Here is where my digital art comes alive in these games that I have developed.</p>
+                            <a href="#/Games" className="btn btn-primary">Games</a>
+                        </div>
+                    </div>  
                 </div>
             </div>
         </div>
