@@ -1,4 +1,6 @@
-import lavaBoss from '../lavaBoss.png';
+import lavaBoss from '../bossLevel.png';
+import apps from '../BadBAnkThumbnail.png';
+import art from '../mugshot.png'
  
  function Home() {
     console.log('home');
@@ -12,7 +14,7 @@ import lavaBoss from '../lavaBoss.png';
             <div className="row">
                 <div className="col">
                 <div className="card">
-                    <img src={lavaBoss} className="card-img-top" alt="..."/>
+                    <img src={apps} className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">Apps</h5>
                             <p className="card-text">Functionality and productivity work together in my app designs.</p>
@@ -22,7 +24,7 @@ import lavaBoss from '../lavaBoss.png';
             </div>
                 <div className="col">
                 <div className="card">
-                    <img src={lavaBoss} className="card-img-top" alt="..."/>
+                    <img src={art} className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">Digital Art</h5>
                             <p className="card-text">Digital art is truly expressive, I enjoy many different approaches to digital art.</p>
