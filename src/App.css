@@ -16,7 +16,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
   width: 3rem;
 }
 .card {
-  background-color: rgb(178, 189, 172);
+  background-color: rgba(31, 4, 25, 0.318);
   align-content: center;
   text-align: center;
   border-radius: 1rem;
@@ -24,7 +24,11 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
 }
 .card-body {
   border-radius: 1rem;
-  background: linear-gradient(90deg, rgba(53, 215, 217, 0.392) 0%, rgba(223, 217, 39, 0.544) 39%, rgba(228, 173, 97, 0.68) 100%);
+  background: linear-gradient(90deg, rgba(156, 251, 253, 0.836) 0%, rgba(255, 251, 127, 0.784) 39%, rgba(255, 213, 153, 0.917) 100%);
+}
+.card-text-games {
+  font-size: 1.5rem;
+  color: rgb(10, 11, 11);
 }
 .bubbleAttack {
   border-radius: 1rem;
@@ -70,12 +74,17 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
   width: 20rem;
   box-shadow: .5rem 1rem 1rem rgba(0, 0, 0, 0.295);
 }
-.game-container {
-  width: 30rem;
+.jammer {
+  width: min-content;
 }
+
 .container {
   align-content: center;
 
+}
+.pictures {
+  border-radius: 1rem;
+  margin: 2px;
 }
 
 

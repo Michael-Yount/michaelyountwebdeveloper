@@ -14,7 +14,7 @@ import art from '../mugshot.png'
             <div className="row">
                 <div className="col">
                 <div className="card">
-                    <img src={apps} className="card-img-top" alt="..."/>
+                    <img src={apps} className="card-img-top img-fluid" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">Apps</h5>
                             <p className="card-text">Functionality and productivity work together in my app designs.</p>
@@ -24,7 +24,7 @@ import art from '../mugshot.png'
             </div>
                 <div className="col">
                 <div className="card">
-                    <img src={art} className="card-img-top" alt="..."/>
+                    <img src={art} className="card-img-top img-fluid" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">Digital Art</h5>
                             <p className="card-text">Digital art is truly expressive, I enjoy many different approaches to digital art.</p>
@@ -34,7 +34,7 @@ import art from '../mugshot.png'
                 </div>
                 <div className="col">
                     <div className="card">
-                    <img src={lavaBoss} className="card-img-top" alt="..."/>
+                    <img src={lavaBoss} className="card-img-top img-fluid" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">Games</h5>
                             <p className="card-text">Here is where my digital art comes alive in these games that I have developed.</p>
