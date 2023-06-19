@@ -29,7 +29,7 @@ import art from '../mugshot.png'
                         <div className="card-body">
                             <h5 className="card-title">Digital Art</h5>
                             <p className="card-text">Digital art is truly expressive, I enjoy many different approaches to digital art.</p>
-                            <a href="#/DigitalArt" className="btn">Art</a>
+                            <a href="#/Art" className="btn">Art</a>
                         </div>
                     </div>
                 </div>

@@ -1,11 +1,46 @@
 import bubbleAttack from '../bubbleAttack.png'
 import jammer from '../500x499jammer.png';
 import smallshot from '../smallsho21.png';
+import chicken from '../Menu Screen.png';
+import wind from '../WindWhirlTitleeyes.png';
+import pill from '../pill.png';
 
 function Games() {
     console.log('games');
     return (
       <div className='container'>
+        <div className='row'>
+          <div className='col'>
+            <div className="card">
+                    <img src={chicken} className="card-img-top img-fluid" alt="..."/>
+                        <div className="card-body">
+                            <h5 className="card-title">Why Did the Chicken Cross the Universe?</h5>
+                            <p className="card-text">This game is a very large project.</p>
+                            <a href="https://michaelyount.itch.io/why-did-the-chicken-cross-the-universe" className="btn">Chicken</a>
+                 </div>
+            </div>  
+          </div>
+          <div className='col'>
+            <div className="card">
+                    <img src={wind} className="card-img-top img-fluid" alt="..."/>
+                        <div className="card-body">
+                            <h5 className="card-title">Wind Whirl</h5>
+                            <p className="card-text">Follow a seed throught he world and help it survive.</p>
+                            <a href="https://michaelyount.itch.io/wind-whirl" className="btn">Seed</a>
+                      </div>
+            </div>  
+          </div>
+          <div className='col'>
+            <div className="card">
+                    <img src={pill} className="card-img-top img-fluid" alt="..."/>
+                        <div className="card-body">
+                            <h5 className="card-title">Deeper into the Mind.</h5>
+                            <p className="card-text">This was my entry into ludum dare 48.</p>
+                            <a href="https://michaelyount.itch.io/deeper-into-the-mind" className="btn">Ludum48</a>
+                      </div>
+            </div>  
+          </div>
+        </div>
         <div className="game-container">
             <h1 className='page-title'>Games</h1>
           <div className="card">

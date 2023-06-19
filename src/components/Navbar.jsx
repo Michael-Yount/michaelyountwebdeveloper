@@ -5,7 +5,7 @@ function Navbar() {
             <nav className="navbar sticky-top navbar-expand-lg navbar-dark">
             <div className="container-fluid topbar">
                 <img src={logo} alt="logo" className='logo'/>
-                <a className="navbar-brand" href="../components">Michael Yount</a>
+                <a className="navbar-brand" href="#/Biography">Michael Yount</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
@@ -24,7 +24,10 @@ function Navbar() {
                     <a className="nav-link" aria-current="page" href="#/Resume"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Resume</span></a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="#/Games"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Games/Digital Art</span></a>
+                    <a className="nav-link" aria-current="page" href="#/Games"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Games</span></a>
+                    </li>
+                    <li className="nav-item">
+                    <a className="nav-link" aria-current="page" href="#/Art"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Art</span></a>
                     </li>
                     <li className="nav-item">
                     <a className="nav-link" aria-current="page" href="https://github.com/Michael-Yount">Github</a>

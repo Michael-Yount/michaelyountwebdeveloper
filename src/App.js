@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import WebApps from "./pages/WebApps";
 import Biography from "./pages/Biography";
 import Games from "./pages/Games";
+import Art from "./pages/Art";
 import Resume from "./pages/Resume";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
               <Route path="/Home"           element={<Home />} />
               <Route path="/Biography" element={<Biography />} />
               <Route path="/Games"        element={<Games />} />
+              <Route path="/Art"        element={<Art />} />
               <Route path="/WebApps"        element={<WebApps />} />
               <Route path="/Resume"       element={<Resume />} />
             </Routes>
