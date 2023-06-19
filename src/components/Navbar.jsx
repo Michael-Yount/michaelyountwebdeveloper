@@ -10,7 +10,7 @@ function Navbar() {
                 <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="nav navbar-nav">
+                <ul className="nav navbar-nav justify-content-right">
                     <li className="nav-item">
                     <a className="nav-link" aria-current="page" href="#/Home"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Home</span></a>
                     </li>
