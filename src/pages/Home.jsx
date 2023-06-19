@@ -17,8 +17,9 @@ import art from '../mugshot.png'
                     <img src={apps} className="card-img-top img-fluid" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">Apps</h5>
-                            <p className="card-text">Functionality and productivity work together in my app designs.</p>
-                            <a href="#/WebApps" className="btn btn-primary">Apps</a>
+                            <p className="card-text">Functionality and productivity work together in my app designs. 
+                            <br/>Click here to discover some of my apps.</p>
+                            <a href="#/WebApps" className="btn">Apps</a>
                         </div>
                     </div>  
             </div>
@@ -28,7 +29,7 @@ import art from '../mugshot.png'
                         <div className="card-body">
                             <h5 className="card-title">Digital Art</h5>
                             <p className="card-text">Digital art is truly expressive, I enjoy many different approaches to digital art.</p>
-                            <a href="#/DigitalArt" className="btn btn-primary">Art</a>
+                            <a href="#/DigitalArt" className="btn">Art</a>
                         </div>
                     </div>
                 </div>
@@ -38,7 +39,7 @@ import art from '../mugshot.png'
                         <div className="card-body">
                             <h5 className="card-title">Games</h5>
                             <p className="card-text">Here is where my digital art comes alive in these games that I have developed.</p>
-                            <a href="#/Games" className="btn btn-primary">Games</a>
+                            <a href="#/Games" className="btn">Games</a>
                         </div>
                     </div>  
                 </div>
