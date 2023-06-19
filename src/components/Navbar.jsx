@@ -24,9 +24,6 @@ function Navbar() {
                     <a className="nav-link" aria-current="page" href="#/Resume"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Resume</span></a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="#/DigitalArt"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Digital Art</span></a>
-                    </li>
-                    <li className="nav-item">
                     <a className="nav-link" aria-current="page" href="#/Games"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Games</span></a>
                     </li>
                     <li className="nav-item">

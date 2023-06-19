@@ -8,7 +8,6 @@ import Home from "./pages/Home";
 import WebApps from "./pages/WebApps";
 import Biography from "./pages/Biography";
 import Games from "./pages/Games";
-import DigitalArt from "./pages/DigitalArt";
 import Resume from "./pages/Resume";
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
               <Route path="/Biography" element={<Biography />} />
               <Route path="/Games"        element={<Games />} />
               <Route path="/WebApps"        element={<WebApps />} />
-              <Route path="/DigitalArt"       element={<DigitalArt />} />
               <Route path="/Resume"       element={<Resume />} />
             </Routes>
     </HashRouter>

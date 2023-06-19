@@ -43,8 +43,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
   margin-left: 6rem;
 }
 .nav-item {
-  margin: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .btn {
@@ -66,8 +65,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
   border-radius: 1rem;
 }
 .spiderImg {
-  border-radius: 50%;
-  width: 40rem;
+  border-radius: 5rem;
+  width: 20rem;
   box-shadow: .5rem 1rem 1rem rgba(0, 0, 0, 0.295);
 }
 
