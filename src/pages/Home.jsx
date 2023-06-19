@@ -8,7 +8,7 @@ import art from '../mugshot.png'
         <div className="container">
             <div className="container">
                 <div className="cool-phrase">
-                    <p>I am developing excellent user experiences</p>
+                    <p>I strive to develop excellent user experiences</p>
                 </div>
             </div>
             <div className="row">

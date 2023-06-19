@@ -24,7 +24,7 @@ function Navbar() {
                     <a className="nav-link" aria-current="page" href="#/Resume"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Resume</span></a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="#/Games"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Games</span></a>
+                    <a className="nav-link" aria-current="page" href="#/Games"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Games/Digital Art</span></a>
                     </li>
                     <li className="nav-item">
                     <a className="nav-link" aria-current="page" href="https://github.com/Michael-Yount">Github</a>
