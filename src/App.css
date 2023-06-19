@@ -90,6 +90,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
 
 .container {
   align-content: center;
+  text-align: center;
 
 }
 .container-apps {
@@ -98,6 +99,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
 .pictures {
   border-radius: 1rem;
   margin: 2px;
+}
+.resume {
+  font-size: 1.3rem;
+  color: #e1c1ff;
 }
 
 
