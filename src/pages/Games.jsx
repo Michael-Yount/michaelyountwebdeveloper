@@ -3,7 +3,8 @@ import jammer from '../500x499jammer.png';
 import smallshot from '../smallsho21.png';
 import chicken from '../Menu Screen.png';
 import wind from '../WindWhirlTitleeyes.png';
-import pill from '../pill.png';
+import pill from '../pill.png'
+import pillSheet from '../thePill_Main_spriteSHeet.png';
 
 function Games() {
     console.log('games');
@@ -53,6 +54,7 @@ function Games() {
             <div className='container'>
             <img src={jammer} className="img-fluid pictures" alt="..."/>
             <img src={smallshot} className="img-fluid pictures" alt="..."/>
+            <img src={pillSheet} className="img-fluid pictures" alt="..."/>
             </div>
           </div>
         </div>
