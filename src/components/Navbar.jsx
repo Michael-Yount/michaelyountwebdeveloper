@@ -21,7 +21,7 @@ function Navbar() {
                     <a className="nav-link" aria-current="page" href="#/Biography"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Biography</span></a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="#/Resume"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Resume</span></a>
+                    <a className="nav-link" aria-current="page" href="#/Resume"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Resume/Contact</span></a>
                     </li>
                     <li className="nav-item">
                     <a className="nav-link" aria-current="page" href="#/Games"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Games</span></a>
