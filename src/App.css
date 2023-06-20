@@ -28,7 +28,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
 }
 .card-text-games {
   font-size: 1.5rem;
-  color: rgb(10, 11, 11);
+  color: rgb(225, 241, 241);
 }
 .bubbleAttack {
   border-radius: 1rem;
@@ -38,8 +38,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
   margin: 1rem;
   border-radius: 1rem;
   padding: 1rem;
-  background: rgba(30, 157, 171, 0.367);
+  background: rgba(30, 157, 171, 0.74);
   font-size: 1.2rem;
+  color: rgb(251, 253, 254);
   box-shadow: .5em .5em 1em rgba(0, 0, 0, 0.351);
 }
 
@@ -49,19 +50,20 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
 }
 .nav-item {
   font-size: 1.3rem;
-}
-
-.btn {
-  text-align: center;
-  border-radius: 1.5rem;
-  font-size: 1.8rem;
-  margin-bottom: 2px;
-  color: aliceblue;
-  background-color: rgb(90, 91, 83);
-  box-shadow: .1rem .1rem .8rem .5rem rgba(249, 22, 22, 0.475);
 
   &:hover {
-    background-color: rgb(242, 254, 185);
+    color: greenyellow;
+  }
+  &:active {
+    background-color: aliceblue;
+  }
+}
+
+
+.btn {
+  box-shadow: -.1rem .1rem .8rem .2rem rgb(220, 78, 49);
+  &:hover {
+    background-color: rgb(92, 101, 50);
   }
 }
 
@@ -96,6 +98,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
 }
 .container-apps {
   width: max-content;
+}
+.game-container{
+  color: #e1c1ff;
 }
 .pictures {
   border-radius: 1rem;

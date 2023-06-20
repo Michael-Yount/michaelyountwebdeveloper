@@ -13,33 +13,33 @@ import art from '../mugshot.png'
             </div>
             <div className="row">
                 <div className="col">
-                <div className="card">
+                <div className="">
                     <img src={apps} className="card-img-top img-fluid" alt="..."/>
-                        <div className="card-body">
+                        <div className="">
                             <h5 className="card-title">Apps</h5>
                             <p className="card-text">Functionality and productivity work together in my app designs. 
                             <br/>Click here to discover some of my apps.</p>
-                            <a href="#/WebApps" className="btn">Apps</a>
+                            <a href="#/WebApps" className="btn btn-outline-success">Apps</a>
                         </div>
                     </div>  
             </div>
                 <div className="col">
-                <div className="card">
+                <div className="">
                     <img src={art} className="card-img-top img-fluid" alt="..."/>
-                        <div className="card-body">
+                        <div className="">
                             <h5 className="card-title">Digital Art</h5>
                             <p className="card-text">Digital art is truly expressive, I enjoy many different approaches to digital art.</p>
-                            <a href="#/Art" className="btn">Art</a>
+                            <a href="#/Art" className="btn btn-outline-success">Art</a>
                         </div>
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card">
+                    <div className="">
                     <img src={lavaBoss} className="card-img-top img-fluid" alt="..."/>
-                        <div className="card-body">
+                        <div className="">
                             <h5 className="card-title">Games</h5>
                             <p className="card-text">Here is where my digital art comes alive in these games that I have developed.</p>
-                            <a href="#/Games" className="btn">Games</a>
+                            <a href="#/Games" className="btn btn-outline-success">Games</a>
                         </div>
                     </div>  
                 </div>
