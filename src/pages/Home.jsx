@@ -6,22 +6,19 @@ import art from '../mugshot.png'
     console.log('home');
     return (
         <div className="container">
-            <div className="container">
+            <div className="title-container">
                 <div className="cool-phrase">
-                    <p>I strive to develop excellent user experiences</p>
+                    <h1 className='name-title'>Michael A. Yount</h1>
+                    <p>I strive to develop excellent user experiences.</p>
                 </div>
             </div>
             <div className="row">
                 <div className="col">
-                <div className="">
                     <img src={apps} className="card-img-top img-fluid" alt="..."/>
-                        <div className="">
                             <h5 className="card-title">Apps</h5>
                             <p className="card-text">Functionality and productivity work together in my app designs. 
                             <br/>Click here to discover some of my apps.</p>
                             <a href="#/WebApps" className="btn btn-outline-success">Apps</a>
-                        </div>
-                    </div>  
             </div>
                 <div className="col">
                 <div className="">
