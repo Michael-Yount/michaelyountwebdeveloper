@@ -134,6 +134,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
 .col {
   margin: 1rem;
 }
+.footer {
+  align-items: center;
+  
+}
 
 
 
