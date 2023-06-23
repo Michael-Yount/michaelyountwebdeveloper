@@ -4,7 +4,7 @@ function Biography() {
     console.log('biography');
     return (
         <div className="container">
-            <h1 className="page-title">Bio</h1>
+            <h1 className="name-title">Bio</h1>
             <div className="row">
                 <div className="col">
                     <img src={mypic} className="img-fluid" alt="..."/>

@@ -125,6 +125,15 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
   font-size: 1.5rem;
   color: #e1c1ff;
 }
+.card-title {
+  font-size: 2rem;
+  margin: 1rem;
+  font-family: Lato;
+  color: #f8ffaa;
+}
+.col {
+  margin: 1rem;
+}
 
 
 

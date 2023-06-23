@@ -5,7 +5,7 @@ function Resume() {
     
     return (
         <div className="container">
-            <h1 className="page-title">Resume</h1>
+            <h1 className="name-title">Resume</h1>
                <p className="resume">
                   Michael A. Yount
                   <br/> 

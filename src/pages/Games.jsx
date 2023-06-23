@@ -38,8 +38,8 @@ function Games() {
             <div className='col'>
                     <img src={join} className="card-img-top img-fluid" alt="..."/>
                             <h5 className="card-title">Join Logic</h5>
-                            <p className="card-text">This was my entry into ludum dare 48.</p>
-                            <a href="https://grantyoumanywishes.itch.io/joinlogic" className="btn btn-outline-success">Ludum48</a>
+                            <p className="card-text">This was my entry into another game jam, where a small team completed this in 48 hours.</p>
+                            <a href="https://grantyoumanywishes.itch.io/joinlogic" className="btn btn-outline-success">Join Logic</a>
             </div>  
           </div>
           </div>
