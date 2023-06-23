@@ -6,6 +6,7 @@ import wind from '../WindWhirlTitleeyes.png';
 import pill from '../pill.png'
 import pillSheet from '../thePill_Main_spriteSHeet.png';
 import join from '../joinLogicJam.png';
+import reactor from '../nuclear_reactor.png'
 
 function Games() {
     console.log('games');
@@ -55,6 +56,8 @@ function Games() {
             <img src={jammer} className="img-fluid pictures" alt="..."/>
             <img src={smallshot} className="img-fluid pictures" alt="..."/>
             <img src={pillSheet} className="img-fluid pictures" alt="..."/>
+            <img src={reactor} className="img-fluid pictures" alt="..."/>
+
             </div>
           </div>
         </div>
