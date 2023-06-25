@@ -1,12 +1,8 @@
 import bubbleAttack from '../bubbleAttack.png'
-import jammer from '../500x499jammer.png';
-import smallshot from '../smallsho21.png';
 import chicken from '../Menu Screen.png';
 import wind from '../WindWhirlTitleeyes.png';
 import pill from '../pill.png'
-import pillSheet from '../thePill_Main_spriteSHeet.png';
 import join from '../joinLogicJam.png';
-import reactor from '../nuclear_reactor.png'
 
 function Games() {
     console.log('games');
