@@ -52,13 +52,7 @@ function Games() {
               <br/>the work is never ending and there are more tasks that seem to build every day.
               <br/> Adding features to a game can be very challenging and time consuming, but these are all learning experiences.</p>
             </div>
-            <div className='container'>
-            <img src={jammer} className="img-fluid pictures" alt="..."/>
-            <img src={smallshot} className="img-fluid pictures" alt="..."/>
-            <img src={pillSheet} className="img-fluid pictures" alt="..."/>
-            <img src={reactor} className="img-fluid pictures" alt="..."/>
-
-            </div>
+            
           </div>
         </div>
       </div>
