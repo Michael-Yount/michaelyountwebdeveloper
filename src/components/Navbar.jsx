@@ -29,12 +29,7 @@ function Navbar() {
                     <li className="nav-item">
                     <a className="nav-link" aria-current="page" href="#/Art"><span data-bs-target="#navbarNav" data-bs-toggle="collapse">Art</span></a>
                     </li>
-                    <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="https://github.com/Michael-Yount">Github</a>
-                    </li>
-                    <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="https://www.linkedin.com/in/michael-yount/">LinkedIn</a>
-                    </li>
+                   
                 </ul>
                 </div>
             </div>

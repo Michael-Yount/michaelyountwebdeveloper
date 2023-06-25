@@ -28,6 +28,7 @@ import mypic from '../MYlogo.png'
                             <p className="card-text">Digital art is truly expressive, I enjoy many different approaches to digital art.</p>
                             <a href="#/Art" className="btn btn-outline-success">Art</a>
                 </div>
+            </div>
             <div className='row'>   
                 <div className="col">
                     <img src={lavaBoss} className="card-img-top img-fluid" alt="..."/>
@@ -42,12 +43,19 @@ import mypic from '../MYlogo.png'
                             <a href="#/Games" className="btn btn-outline-success">Games</a>
                 </div>
             </div>     
+                    <div className='footer-container'>
+                        <ul className='footer-ul'>
+                                <li>
+                                <a className="footer-li" aria-current="page" href="https://github.com/Michael-Yount" target="_blank" rel="noopener noreferrer">Github</a>
+                                </li>
+                                <li>
+                                <a className="footer-li" aria-current="page" href="https://www.linkedin.com/in/michael-yount/" target='_blank' rel='noopener noreferrer'>LinkedIn</a>
+                                </li>
+                            <img src={mypic} className="img-fluid logo-big" alt="..."/>
+                    </ul>
+                </div>
             </div>
-    <div className='footer'>
-    <img src={mypic} className="img-fluid" alt="..."/>
-
-    </div>
-        </div>
+    
     )
  }
  export default Home;
