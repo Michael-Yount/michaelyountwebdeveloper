@@ -15,9 +15,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
 .logo {
   width: 3rem;
 }
-.logo-big {
-  width: 10rem;
-}
 .card {
   background-color: rgba(31, 4, 25, 0.318);
   align-content: center;
@@ -59,7 +56,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
 }
 .nav-item {
   font-size: 1.3rem;
-
+  
   &:hover {
     color: greenyellow;
   }
@@ -84,7 +81,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
   color: antiquewhite;
 }
 .page-title {
-  text-align: left;
+  text-align: center;
   font-size: 5rem;
   margin: 2rem;
   font-family: Silkscreen;
@@ -122,7 +119,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
 }
 .title-container {
   margin-bottom: 4rem;
-
+  
 }
 
 .pictures {
@@ -142,27 +139,34 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
 .col {
   margin: 1rem;
 }
-.footer-container {
-  display: flex;
+footer{
   background-color: #002a38;
-  line-height: 1.3;
-  font-family: Menlo, monospace;
-
-  
-
-.footer-li {
-    color: white;
-    text-decoration: none;
-    box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
-  }
+  font-family: Lato;
+  border-radius: 5px;
+  align-content: center;
   
 }
-.footer-ul{
-  display: inline-grid;
-  grid-auto-flow: row;
-  grid-gap: 24px;
-  justify-items: center;
-  margin: auto;
+
+footer li {
+  display: inline;
+}
+footer a {
+  color: #f8ffaa;
+  text-decoration: none;
+  margin: 2rem;
+}
+.logo-big {
+  width: 8rem;
+}
+
+footer ul{
+  text-align: center;
+  margin: 2rem;
+  list-style: none;
+}
+
+.container {
+  text-align: center;
 }
 
 

@@ -31,29 +31,29 @@ import mypic from '../MYlogo.png'
             </div>
             <div className='row'>   
                 <div className="col">
+                    <div className='item-cont'>
                     <img src={lavaBoss} className="card-img-top img-fluid" alt="..."/>
                             <h5 className="card-title">Games</h5>
                             <p className="card-text">Here is where my digital art comes alive in these games that I have developed.</p>
                             <a href="#/Games" className="btn btn-outline-success">Games</a>
+                            </div>
                 </div>
-                <div className="col">
-                    <img src={lavaBoss} className="card-img-top img-fluid" alt="..."/>
-                            <h5 className="card-title">Games</h5>
-                            <p className="card-text">Here is where my digital art comes alive in these games that I have developed.</p>
-                            <a href="#/Games" className="btn btn-outline-success">Games</a>
-                </div>
+              
             </div>     
-                    <div className='footer-container'>
-                        <ul className='footer-ul'>
+                    <footer>
+                        <ul>
+                           <li>
+                                <img src={mypic} className=" logo-big" alt="..."/>
+                            </li> 
                                 <li>
                                 <a className="footer-li" aria-current="page" href="https://github.com/Michael-Yount" target="_blank" rel="noopener noreferrer">Github</a>
                                 </li>
                                 <li>
                                 <a className="footer-li" aria-current="page" href="https://www.linkedin.com/in/michael-yount/" target='_blank' rel='noopener noreferrer'>LinkedIn</a>
                                 </li>
-                            <img src={mypic} className="img-fluid logo-big" alt="..."/>
-                    </ul>
-                </div>
+                        </ul>
+
+                </footer>
             </div>
     
     )
