@@ -10,7 +10,7 @@ function Resume() {
                   Michael A. Yount
                   <br/> 
                     <br/>cheshirekatsmile101@gmail.com | 585 441 4762 | Lehighton PA.
-                    <br/><a href="www.linkedin.com/in/michael-yount">My LinkedIn Profile</a>  | <a href="https://github.com/Michael-Yount">My Github Profile</a>
+                    <br/><a href="https://linkedin.com/in/michael-yount" target="_blank" rel="noopener noreferrer">My LinkedIn Profile</a>  | <a href="https://github.com/Michael-Yount">My Github Profile</a>
                     <br/>
                     <br/>
                     SKILLS: 
