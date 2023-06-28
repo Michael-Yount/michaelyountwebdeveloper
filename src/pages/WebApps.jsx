@@ -2,6 +2,7 @@ import bankApp from '../BadBAnkThumbnail.png';
 import dadJoke from '../dadJokes.png';
 import kitchenprep from '../kitchenprep.png';
 import tictac from '../Tic tac toe.png';
+import mypic from '../MYlogo.png'
 
 function WebApps() {
     console.log('web apps');
@@ -43,6 +44,20 @@ function WebApps() {
                  <a href='https://kitchenprepapp.netlify.app/' type='button' className='btn btn-outline-success'>Kitchen App</a>
         </div>
     </div>
+    <footer>
+                        <ul>
+                           <li>
+                                <img src={mypic} className=" logo-big" alt="..."/>
+                            </li> 
+                                <li>
+                                <a className="footer-li" aria-current="page" href="https://github.com/Michael-Yount" target="_blank" rel="noopener noreferrer">Github</a>
+                                </li>
+                                <li>
+                                <a className="footer-li" aria-current="page" href="https://www.linkedin.com/in/michael-yount/" target='_blank' rel='noopener noreferrer'>LinkedIn</a>
+                                </li>
+                        </ul>
+
+                </footer>
     </div>
     
     )
