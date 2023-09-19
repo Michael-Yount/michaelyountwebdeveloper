@@ -2,7 +2,7 @@ import lavaBoss from '../bossLevel.png';
 import apps from '../BadBAnkThumbnail.png';
 import art from '../mugshot.png'
 import mypic from '../MYlogo.png'
-
+import food from '../foodieOrder.png'
  
  function Home() {
     console.log('home');
@@ -14,6 +14,15 @@ import mypic from '../MYlogo.png'
                     <p>I strive to develop excellent user experiences for everyone.</p>
                 </div>
             </div>
+            <div className="row">
+                <div className="col">
+                    <img src={food} className="card-img-top img-fluid img" alt="..."/>
+                            <h5 className="card-title">This is my Capstone project.</h5>
+                            <p className="card-text">My final project for MIT xPro Full Stack with MERN certification course. 
+                            <br/>Foodie Order uses authentication, backend database and server, as well as , front end deploy.</p>
+                            <a href="https://michael-yountfullstackrestaurantapp.vercel.app/" target='_blank' rel='noopener noreferrer' className="btn btn-outline-success">Click here to explore this app.</a>
+                </div>
+                </div>
             <div className="row">
                 <div className="col">
                     <img src={apps} className="card-img-top img-fluid img" alt="..."/>

@@ -7,8 +7,8 @@
 
 body {
   font-family: 'Alegreya Sans SC', sans-serif;
-  color: rgb(0, 40, 74);
-  background: rgb(255, 253, 249);
+  color: rgb(0, 107, 201);
+  background: rgba(253, 253, 250, 0.469);
   font-size: 1.5rem;
 }
 
@@ -38,8 +38,7 @@ body {
   margin: 1rem;
   border-radius: 1rem;
   padding: 1rem;
-  background: rgba(30, 157, 171, 0);
-  color: rgb(40, 34, 32);
+  background: rgba(30, 157, 171, 0.13);
 }
 .navbar-brand {
   font-size: 2.2rem;
@@ -56,19 +55,20 @@ body {
   
   &:hover {
     font-size: 2.5rem;
-    color: rgb(177, 255, 42);
+    color: rgb(248, 253, 239);
   }
   &:active {
-    background-color: rgba(240, 248, 255, 0.448);
+    background-color: rgba(2, 2, 2, 0.448);
     border-radius: 10px;
   }
 }
 
 
 .btn {
-  box-shadow: -.1rem .1rem .8rem .2rem rgba(220, 78, 49, 0.214);
+  font-size: 1.5rem;
+  box-shadow:1rem .5rem .5rem rgba(15, 12, 11, 0.594);
   &:hover {
-    background-color: rgb(43, 48, 20);
+    background-color: rgb(195, 148, 97);
   }
 }
 
@@ -170,8 +170,9 @@ footer ul{
 }
 
 .img {
-  height: 300px;
+  height: auto;
   width: 300px;
+  box-shadow: 1rem .5rem .8rem rgba(0, 0, 0, 0.733);
 }
 
 
