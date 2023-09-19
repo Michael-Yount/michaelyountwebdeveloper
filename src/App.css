@@ -39,6 +39,7 @@ body {
   border-radius: 1rem;
   padding: 1rem;
   background: rgba(30, 157, 171, 0.13);
+  box-shadow: .5rem .5rem 1rem rgba(118, 118, 180, 0.275);
 }
 .navbar-brand {
   font-size: 2.2rem;
@@ -134,7 +135,7 @@ footer{
   background: rgba(30, 157, 171, 0.063);
   border-radius: 5px;
   align-content: center;
-  box-shadow: .5rem .5rem .5rem rgba(0, 0, 9, 0.486);
+  box-shadow: .5rem .5rem 1rem rgba(136, 136, 197, 0.625);
   
 }
 
