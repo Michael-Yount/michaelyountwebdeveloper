@@ -7,8 +7,9 @@
 
 body {
   font-family: 'Alegreya Sans SC', sans-serif;
-  color: aliceblue;
+  color: rgb(0, 40, 74);
   background: rgb(255, 253, 249);
+  font-size: 1.5rem;
 }
 
 .logo {
@@ -26,8 +27,8 @@ body {
   background: linear-gradient(90deg, rgba(156, 251, 253, 0.836) 0%, rgba(255, 251, 127, 0.784) 39%, rgba(255, 213, 153, 0.917) 100%);
 }
 .card-text-games {
-  font-size: 1.5rem;
-  color: rgb(225, 241, 241);
+  font-size: 1.8rem;
+  color: rgb(27, 0, 133);
 }
 .bubbleAttack {
   border-radius: 1rem;
@@ -38,11 +39,10 @@ body {
   border-radius: 1rem;
   padding: 1rem;
   background: rgba(30, 157, 171, 0);
-  font-size: 1.5rem;
   color: rgb(40, 34, 32);
 }
 .navbar-brand {
-  font-size: 1.5rem;
+  font-size: 2.2rem;
   margin-left: 1rem;
   color: #282917;
 }
@@ -52,10 +52,10 @@ body {
   margin-left: 6rem;
 }
 .nav-item {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   
   &:hover {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: rgb(177, 255, 42);
   }
   &:active {
@@ -95,6 +95,7 @@ body {
 .card-img-top {
   border-radius: 1rem;
   margin-top: 2rem;
+  
 }
 .spiderImg {
   border-radius: 5rem;
@@ -166,6 +167,11 @@ footer ul{
 
 .font-link {
   font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.img {
+  height: 300px;
+  width: 300px;
 }
 
 

@@ -21,7 +21,7 @@ function WebApps() {
                  <a href='https://michael-yount.github.io/my_bad_bank_react/' type='button' className='btn btn-outline-success'>My Bad Bank</a>
         </div>
         <div className="container col">
-                <img src={dadJoke} className="img-fluid pictures" alt="..."/>
+                <img src={dadJoke} className="img-fluid pictures img" alt="..."/>
                 <h5 className="card-title">Dad Joke Generator</h5>
                  <p className="card-text">This is an API fetch app. In this app I utilize axios fetch and bring data into the react app. Future additions will include Chuck Norris Jokes.
                  <br/> Click here to check out this app.</p>
@@ -30,14 +30,14 @@ function WebApps() {
     </div>
     <div className='row'>
         <div className="container col">
-                <img src={kitchenprep} className="img-fluid pictures" alt="..."/>
+                <img src={kitchenprep} className="img-fluid pictures img" alt="..."/>
                 <h5 className="card-title">Kitchen Prep App</h5>
                  <p className="card-text">This is a productivity and team building app generally used for comercial kitchens.
                  <br/> Click here to check out this app.</p>
                  <a href='https://kitchenprepapp.netlify.app/' type='button' className='btn btn-outline-success'>Kitchen App</a>
         </div>
         <div className="container col">
-                <img src={tictac} className="img-fluid pictures" alt="..."/>
+                <img src={tictac} className="img-fluid pictures img" alt="..."/>
                 <h5 className="card-title">React Tic Tac Toe</h5>
                  <p className="card-text">This is a productivity and team building app generally used for comercial kitchens.
                  <br/> Click here to check out this app.</p>
