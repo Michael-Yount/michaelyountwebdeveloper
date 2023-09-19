@@ -78,19 +78,14 @@ body {
   text-align: center;
   color: rgb(26, 23, 19);
 }
-.page-title {
-  text-align: center;
-  font-size: 5rem;
-  margin: 2rem;
-  text-shadow: .5rem 1rem 1rem rgba(0, 0, 0, 0.851);
-  color: #1a171c;
-}
+
+
 .name-title{
   margin: 3rem;
   font-size: 5rem;
   text-align: center;
   color: #000000;
-  text-shadow: .5rem .5rem .8rem rgba(148, 218, 255, 0.798);
+  text-shadow: .5rem .8rem .8rem rgba(128, 211, 255, 0.951);
 }
 .card-img-top {
   border-radius: 1rem;

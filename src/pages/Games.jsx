@@ -10,7 +10,7 @@ function Games() {
     return (
       <div className='container'>
         <div className='title-container'>
-          <h1 className='page-title'>Games</h1>
+          <h1 className='name-title'>Games</h1>
             <h2 className='page-title-para'>This is where my digital artwork is brought to life through functionality</h2>
         </div>
         <div className='row'>
