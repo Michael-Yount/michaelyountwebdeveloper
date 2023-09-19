@@ -9,7 +9,7 @@ import mypic from '../MYlogo.png'
     return (
         <div className="container">
             <div className="title-container">
-                    <h1 className='name-title'>Michael<br/> Yount</h1>
+                    <h1 className='name-title'>Michael Yount</h1>
                 <div className="cool-phrase">
                     <p>I strive to develop excellent user experiences for everyone.</p>
                 </div>

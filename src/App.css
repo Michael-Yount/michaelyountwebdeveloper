@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
-
 *,
 *::before,
 *::after{
@@ -7,9 +6,9 @@
 }
 
 body {
+  font-family: 'Alegreya Sans SC', sans-serif;
   color: aliceblue;
-  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba(2,0,5,1) 100%);
+  background: rgb(255, 253, 249);
 }
 
 .logo {
@@ -38,16 +37,14 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
   margin: 1rem;
   border-radius: 1rem;
   padding: 1rem;
-  background: rgba(30, 157, 171, 0.722);
-  font-size: 1.2rem;
-  color: rgb(251, 253, 254);
-  box-shadow: .5em .5em 1em rgba(0, 0, 0, 0.351);
+  background: rgba(30, 157, 171, 0);
+  font-size: 1.5rem;
+  color: rgb(40, 34, 32);
 }
 .navbar-brand {
-  font-family: Jost;
   font-size: 1.5rem;
   margin-left: 1rem;
-  color: #f8ffaa;
+  color: #282917;
 }
 
 .nav {
@@ -58,7 +55,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
   font-size: 1.3rem;
   
   &:hover {
-    color: greenyellow;
+    font-size: 2rem;
+    color: rgb(177, 255, 42);
   }
   &:active {
     background-color: rgba(240, 248, 255, 0.448);
@@ -70,32 +68,29 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
 .btn {
   box-shadow: -.1rem .1rem .8rem .2rem rgba(220, 78, 49, 0.214);
   &:hover {
-    background-color: rgb(92, 101, 50);
+    background-color: rgb(43, 48, 20);
   }
 }
 
 .cool-phrase {
   margin: 2rem;
   font-size: 2rem;
-  font-family: Lato;
   text-align: center;
-  color: antiquewhite;
+  color: rgb(26, 23, 19);
 }
 .page-title {
   text-align: center;
   font-size: 5rem;
   margin: 2rem;
-  font-family: Silkscreen;
   text-shadow: .5rem 1rem 1rem rgba(0, 0, 0, 0.851);
-  color: #e1c1ff;
+  color: #1a171c;
 }
 .name-title{
   margin: 3rem;
   font-size: 5rem;
   text-align: center;
-  font-family: Jost;
-  color: #f8ffaa;
-  text-shadow: .5rem 1rem 1rem rgba(0, 0, 0, 0.798);
+  color: #000000;
+  text-shadow: .5rem .5rem .8rem rgba(148, 218, 255, 0.798);
 }
 .card-img-top {
   border-radius: 1rem;
@@ -115,7 +110,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
   width: max-content;
 }
 .game-container{
-  color: #e1c1ff;
+  color: #1b181d;
   align-self: center;
 }
 .title-container {
@@ -129,20 +124,18 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(43, 17, 138) 39%, rgba
 }
 .resume {
   font-size: 1.5rem;
-  color: #e1c1ff;
+  color: #312b36;
 }
 .card-title {
   font-size: 2rem;
   margin: 1rem;
-  font-family: Lato;
-  color: #f8ffaa;
+  color: #1e1e19;
 }
 .col {
   margin: 1rem;
 }
 footer{
-  background: rgba(30, 157, 171, 0.722);
-  font-family: Lato;
+  background: rgba(30, 157, 171, 0.063);
   border-radius: 5px;
   align-content: center;
   box-shadow: .5rem .5rem .5rem rgba(0, 0, 9, 0.486);
@@ -153,7 +146,7 @@ footer li {
   display: inline;
 }
 footer a {
-  color: #f8ffaa;
+  color: #22221e;
   text-decoration: none;
   margin: 2rem;
 }
@@ -169,6 +162,10 @@ footer ul{
 
 .container {
   text-align: center;
+}
+
+.font-link {
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 

@@ -2,10 +2,10 @@ import logo from '../MYlogo.png';
 
 function Navbar() {
     return (
-            <nav className="navbar sticky-top navbar-expand-lg navbar-dark">
+            <nav className="navbar sticky-top navbar-expand-lg font-link">
             <div className="container-fluid topbar">
                 <img src={logo} alt="logo" className='logo'/>
-                <a className="navbar-brand" href="#/Biography">Michael Yount</a>
+                <a className="navbar-brand font-link" href="#/Biography">Michael Yount</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
