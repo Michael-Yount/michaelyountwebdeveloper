@@ -26,7 +26,20 @@ function Biography() {
                     </p>
                 </div>
             </div>
+            <footer>
+                        <ul>
+                           <li>
+                                <img src={mypic} className=" logo-big" alt="..."/>
+                            </li> 
+                                <li>
+                                <a className="footer-li" aria-current="page" href="https://github.com/Michael-Yount" target="_blank" rel="noopener noreferrer">Github</a>
+                                </li>
+                                <li>
+                                <a className="footer-li" aria-current="page" href="https://www.linkedin.com/in/michael-yount/" target='_blank' rel='noopener noreferrer'>LinkedIn</a>
+                                </li>
+                        </ul>
 
+                </footer>
         </div>
     )
 }
