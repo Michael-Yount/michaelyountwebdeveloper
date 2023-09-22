@@ -22,10 +22,10 @@ function WebApps() {
         </div>
         <div className="container col">
                 <img src={dadJoke} className="img-fluid pictures img" alt="..."/>
-                <h5 className="card-title">Dad Joke Generator</h5>
+                <h5 className="card-title">Dad and Chuck Norris Joke Generator</h5>
                  <p className="card-text">This is an API fetch app. In this app I utilize axios fetch and bring data into the react app. Future additions will include Chuck Norris Jokes.
                  <br/> Click here to check out this app.</p>
-                 <a href='https://michael-yount.github.io/TheAbsolutlyWorseDadJokes/' target='_blank' rel='noopener noreferrer' type='button' className='btn btn-outline-success'>Dad Jokes</a>
+                 <a href='https://dad-jokes-app-92ga.vercel.app/' target='_blank' rel='noopener noreferrer' type='button' className='btn btn-outline-success'>Dad Jokes</a>
            </div> 
     </div>
     <div className='row'>
