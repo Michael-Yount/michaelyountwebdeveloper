@@ -41,7 +41,7 @@ function WebApps() {
                 <h5 className="card-title">React Tic Tac Toe</h5>
                  <p className="card-text">This is a productivity and team building app generally used for comercial kitchens.
                  <br/> Click here to check out this app.</p>
-                 <a href='https://michael-yount.github.io/tic-tac-toe/' type='button' className='btn btn-outline-success' target='_blank' rel='noopener noreferrer'>Kitchen App</a>
+                 <a href='https://michael-yount.github.io/tic-tac-toe/' type='button' className='btn btn-outline-success' target='_blank' rel='noopener noreferrer'>Tic-Tac-Toe</a>
         </div>
     </div>
     <footer>
